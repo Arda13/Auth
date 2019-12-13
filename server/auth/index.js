@@ -10,4 +10,10 @@ router.get('/', (req,res) =>{
     });
 });
 
+router.post('/signup', (req,res) =>{
+    res.json({
+        message: 'sign up'
+    });
+});
+
 module.exports = router;
